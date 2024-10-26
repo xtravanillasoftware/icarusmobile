@@ -4,11 +4,12 @@
   "description": "Icarus Mobile - Capacitor, React Native, and Expo replacement.",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build.js",
-    "start": "live-server www",
+    "build:ios": "node scripts/build-ios.js",
     "ios": "bash scripts/start-ios.sh",
-    "android": "bash scripts/start-android.sh",
     "deploy:ios": "npm run build && cd ios/IcarusMobileApp && xcodebuild -workspace IcarusMobileApp.xcodeproj/project.xcworkspace -scheme IcarusMobileApp -sdk iphonesimulator -configuration Debug",
+    "web": "live-server www",
+    "build:android": "",
+    "android": "bash scripts/start-android.sh",
     "deploy:android": "npm run build && cd android/app && ./gradlew assembleDebug"
   },
   "devDependencies": {
