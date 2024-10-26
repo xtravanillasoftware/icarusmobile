@@ -1,5 +1,3 @@
-Icarus Mobile Package Usage
-
 # Overview
 
 The Icarus Mobile package is a simple and efficient way to build cross-platform mobile applications using web technologies. This package leverages a Capacitor-like architecture, allowing you to create mobile apps that run in WebViews on both iOS and Android devices. By updating the HTML files in the www folder, you can modify what is rendered in the application without needing to change any native code.
@@ -91,5 +89,3 @@ After deploying, you can test the application on the iOS Simulator or Android Em
 Conclusion
 
 The Icarus Mobile package allows you to create mobile applications using standard web technologies. By simply updating the files in the www/ folder, you can efficiently manage the content and appearance of your app. Building and deploying the application is straightforward with the provided scripts, enabling a smooth development experience across both iOS and Android platforms.
-
-For more information or to report issues, please refer to the README.md file or the project's documentation.
