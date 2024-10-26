@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  IcarusMobileApp
 //
-//  Created by Ashton Morris on 10/20/24.
+//  Created by Ashton James Snow Morris Jefferson on 10/20/24.
 //  Copyright © 2024 xtravanillasoftware. All rights reserved.
 //
 

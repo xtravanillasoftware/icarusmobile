@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44534C5C2CCDB05300B24B07 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 44534C5B2CCDB04900B24B07 /* www */; };
 		44A290232CC547AF0096EB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A290222CC547AF0096EB41 /* AppDelegate.swift */; };
 		44A290252CC547AF0096EB41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A290242CC547AF0096EB41 /* SceneDelegate.swift */; };
 		44A290282CC547AF0096EB41 /* IcarusMobileApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44A290262CC547AF0096EB41 /* IcarusMobileApp.xcdatamodeld */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44534C5B2CCDB04900B24B07 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		44A2901F2CC547AE0096EB41 /* IcarusMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IcarusMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A290222CC547AF0096EB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44A290242CC547AF0096EB41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		44A290212CC547AE0096EB41 /* IcarusMobileApp */ = {
 			isa = PBXGroup;
 			children = (
+				44534C5B2CCDB04900B24B07 /* www */,
 				44A290222CC547AF0096EB41 /* AppDelegate.swift */,
 				44A290242CC547AF0096EB41 /* SceneDelegate.swift */,
 				44A290292CC547AF0096EB41 /* ContentView.swift */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44534C5C2CCDB05300B24B07 /* www in Resources */,
 				44A290322CC548140096EB41 /* LaunchScreen.storyboard in Resources */,
 				44A2902F2CC548130096EB41 /* Preview Assets.xcassets in Resources */,
 				44A2902C2CC548130096EB41 /* Assets.xcassets in Resources */,
