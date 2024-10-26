@@ -6,11 +6,13 @@
   "scripts": {
     "build": "node scripts/build.js",
     "start": "live-server www",
-    "deploy:ios": "npm run build && cd ios/IcarusMobileApp && xcodebuild -workspace IcarusMobileApp.xcworkspace -scheme IcarusMobileApp -sdk iphonesimulator -configuration Debug",
+    "ios": "bash scripts/start-ios.sh",
+    "android": "bash scripts/start-android.sh",
+    "deploy:ios": "npm run build && cd ios/IcarusMobileApp && xcodebuild -workspace IcarusMobileApp.xcodeproj/project.xcworkspace -scheme IcarusMobileApp -sdk iphonesimulator -configuration Debug",
     "deploy:android": "npm run build && cd android/app && ./gradlew assembleDebug"
   },
-  "dependencies": {},
   "devDependencies": {
+    "fs-extra": "^11.2.0",
     "live-server": "^1.2.1"
   }
 }
